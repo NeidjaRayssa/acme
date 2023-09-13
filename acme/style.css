@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo{
+    font-family: 'Kanit', sans-serif;
+}
+
+body{
+    background-color: #e6e6fa;
+    color: #191970;
+}
+
+header{
+    width: 100%; /* largura */
+    height: 12vh; /* altura */
+    text-shadow: 0 1px #b231da;
+    font-size: 1.4rem;
+
+    /* comportamento da caixa */
+    display: flex;
+    justify-content: center; /* alinhamento Horizontal */
+    align-items: center; /* alinhamento vertical */
+}
+
+nav{
+    background-color: #c921fc;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-top: 2px solid #191970d6;
+    border-bottom: 3px solid #191970d6;
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0 1px #191970;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #e6e6fa;
+    transition: .5s;
+}
+
+nav a:hover{
+    text-shadow: -3px -3px #191970;
+}
+
+main{
+    width: 100%;
+}
+
+article h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article p{
+    padding-left: 18px;
+}
+
+ul{
+    padding-top: 4px;
+    padding-left: 6%;
+    padding-bottom: 40px;
+    font-style: italic;
+    list-style: inside;
+}
+
+ul li.feature{
+    font-weight: 600;
+}
+
+footer{
+    border-top: 2px solid #ccc;
+    margin-top: 32px;
+    text-align: right;
+    padding-top: 10px;
+    font-style: italic;
+}
